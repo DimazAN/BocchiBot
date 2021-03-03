@@ -1,4 +1,4 @@
 {
-    "memberLimit": "1",
-    "groupLimit": "10"
+    "memberLimit": "5",
+    "groupLimit": "20"
 }
