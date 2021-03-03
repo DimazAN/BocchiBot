@@ -101,7 +101,7 @@ const start = (bocchi = new Client()) => {
                     .setBackground('https://www.photohdx.com/images/2016/05/red-blurry-background.jpg')
                     .toAttachment()
                 const base64 = `data:image/png;base64,${welcomer.toBuffer().toString('base64')}`
-                await bocchi.sendFile(event.chat, base64, 'welcome.png', `Welcome ${pushname}!`)
+                await bocchi.sendFile(event.chat, base64, 'welcome.png', `Sugeng rawuh ${pushname}!`)
             } else if (event.action === 'remove' && event.who !== botNumbers && isWelcome) {
                 const pic = await bocchi.getProfilePicFromServer(event.who)
                 if (pic === undefined) {
@@ -123,7 +123,7 @@ const start = (bocchi = new Client()) => {
                     .setBackground('https://www.photohdx.com/images/2016/05/red-blurry-background.jpg')
                     .toAttachment()
                 const base64 = `data:image/png;base64,${bye.toBuffer().toString('base64')}`
-                await bocchi.sendFile(event.chat, base64, 'welcome.png', `Bye ${pushname}, we will miss you~`)
+                await bocchi.sendFile(event.chat, base64, 'welcome.png', `INNALILLAHI/nTelah berpulang ke Rahmatullah\nAtas nama ${pushname}\nSEMOGA TENANG DI ALAM SANA\nBtw nasi kotaknya mana? Gw laper`)
             }
         } catch (err) {
             console.error(err)
